@@ -43,4 +43,4 @@ def create_movie(
         result.genres.set(genres_ids)
     if actors_ids:
         result.actors.set(actors_ids)
-        return result
+    return result
